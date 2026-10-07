@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Envelope from "@/components/Envelope";
 import Hero from "@/components/Hero";
-import InvitationMessage from "@/components/InvitationMessage";
 import Events from "@/components/Events";
 import Countdown from "@/components/Countdown";
 import Venue from "@/components/Venue";
@@ -37,7 +36,6 @@ export default function Home() {
         <div id="invitation" className="invitation-page">
           <MusicPlayer enabled={musicOn} />
           <Hero />
-          <InvitationMessage />
           <Events />
           <Countdown />
           <Venue />
