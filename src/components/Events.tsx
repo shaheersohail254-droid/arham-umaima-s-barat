@@ -19,7 +19,6 @@ export default function Events() {
   return (
     <section className="events section-frame" id="events">
       <div className="section-heading">
-        <p className="eyebrow">THE WEDDING CEREMONY</p>
         <h2>Barat Event Details</h2>
         <FloralDivider />
       </div>
@@ -34,7 +33,6 @@ export default function Events() {
               />
             </div>
             <div className="event-content text-center">
-              <h3>{e.title}</h3>
               <div className="event-detail justify-center">
                 <CalendarDays size={18} />
                 <span>{e.date}</span>
