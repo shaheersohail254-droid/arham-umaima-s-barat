@@ -35,7 +35,6 @@ export default function Events() {
             </div>
             <div className="event-content text-center">
               <h3>{e.title}</h3>
-              <p className="event-subtitle mb-3 text-[#d4af37] italic font-serif">{e.subtitle}</p>
               <div className="event-detail justify-center">
                 <CalendarDays size={18} />
                 <span>{e.date}</span>

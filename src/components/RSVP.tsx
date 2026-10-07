@@ -4,7 +4,7 @@ import { Phone } from "lucide-react";
 export default function RSVP() {
   const seniorHosts = ["Zubair Akhtar", "Zaheer Akhtar", "Sohail Akhtar"];
   const compliments = [
-    { name: "Abdul Munim" },
+    { name: "Abdul Munim", phone: "0337 0699996", link: "tel:03370699996" },
     { name: "Mahad Zubair", phone: "0335 9845409", link: "tel:03359845409" },
     { name: "Husban Zubair", phone: "0330 6384132", link: "tel:03306384132" },
     { name: "Shaheer Sohail", phone: "0314 3605988", link: "tel:03143605988" },

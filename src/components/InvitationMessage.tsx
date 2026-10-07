@@ -17,7 +17,6 @@ export default function InvitationMessage() {
       <p className="body-copy">
         Mr and Mrs Zubair Akhtar cordially invite you to the auspicious wedding ceremony (Barat) of their beloved son <strong>Muhammad Arham Zubair</strong> with <strong>Umaima Akhtar</strong> (D/O Pervaiz Akhtar &amp; Tanveer Akhtar).
       </p>
-      <FloralDivider />
     </section>
   );
 }
