@@ -551,32 +551,27 @@ body {
   z-index: 2;
 }
 
-/* Wide Floral Arch Wrapper - Spans over and wraps around text block */
-.wide-floral-arch-wrap {
+/* Floral Pattern Aligned directly on top of picture frame */
+.hero-portrait-wrap .botanical-header-wrap {
   position: absolute;
-  top: -15px;
+  top: clamp(-88px, -18vw, -55px);
   left: 50%;
   transform: translateX(-50%);
-  width: clamp(340px, 94vw, 860px);
-  max-width: 860px;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.wide-floral-arch-wrap .botanical-header-wrap {
-  width: 100%;
-  max-width: 100%;
+  width: clamp(260px, 135%, 470px);
   margin: 0;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
 }
 
-.wide-floral-arch-wrap .botanical-header-img {
+.hero-portrait-wrap .botanical-header-img {
   width: 100%;
-  max-width: 100%;
   height: auto;
   object-fit: contain;
   mix-blend-mode: multiply;
   opacity: 0.98;
-  filter: drop-shadow(0 6px 16px rgba(184, 148, 75, 0.22));
+  filter: drop-shadow(0 6px 14px rgba(184, 148, 75, 0.2));
 }
 
 .hero-portrait-frame {
@@ -646,11 +641,13 @@ body {
   letter-spacing: 0.02em;
 }
 
+.hero-name-title,
 .hero-groom-title,
 .hero-bride-title {
   font-family: "Cormorant Garamond", serif;
   font-weight: 600;
   color: var(--deep);
+  line-height: 1.15;
 }
 
 .parents-block {
