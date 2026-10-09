@@ -55,7 +55,7 @@ export default function Hero() {
           Umaima Akhtar
         </h2>
         <p className="daughter-line text-xs uppercase tracking-widest text-[#796b5b] font-medium mt-1">
-          D/O Pervaiz Akhtar &amp; Tanveer Akhtar
+          D/O Mr &amp; Mrs Pervaiz Akhtar
         </p>
       </motion.div>
       <FloralDivider />
