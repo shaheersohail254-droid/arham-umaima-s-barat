@@ -1,4 +1,3 @@
-import { Heart } from "lucide-react";
 import { FloralDivider } from "./FloralDecorations";
 
 export default function Closing() {
@@ -15,10 +14,6 @@ export default function Closing() {
       <p className="eyebrow">WITH WARM REGARDS</p>
       <h2>Looking forward to your gracious presence</h2>
       <FloralDivider />
-      <div className="heart text-[#b81212]">
-        <Heart size={24} fill="#b81212" />
-      </div>
-      <p className="closing-date">Friday, 13th November 2026</p>
     </section>
   );
 }
