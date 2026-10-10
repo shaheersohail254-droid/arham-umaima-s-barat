@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { FloralDivider } from "./FloralDecorations";
 
-const target = new Date("2026-11-13T12:00:00+05:00").getTime();
+const target = new Date("2026-11-13T13:00:00+05:00").getTime();
 
 export default function Countdown() {
   const [left, setLeft] = useState(target - Date.now());

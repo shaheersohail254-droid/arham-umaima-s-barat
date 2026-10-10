@@ -6,7 +6,7 @@ const events = [
     title: "BARAT CEREMONY",
     subtitle: "The Grand Wedding Ceremony & Feast",
     date: "Friday, 13th November 2026",
-    time: "12:00 Noon",
+    time: "01:00 P.M",
     venue: "Milano Garden Town, Lahore",
     rsvp: "Mr & Mrs Zubair Akhtar",
     tone: "barat",
